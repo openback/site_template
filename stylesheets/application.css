@@ -1,0 +1,59 @@
+/* After reset */
+html { overflow-y: scroll; }
+h1,h2,h3,h4,h5,h6 { margin-bottom: 1em; }
+h1,h2,h3 { font-weight: bold;}
+div { display:block; }
+i { font-style: italic; }
+b { font-weight: bold; }
+small { font-size: .8em; }
+p {
+  text-align: justify;
+  line-height: 1.25em;
+  margin-bottom: 10px;
+}
+
+/* ** basic styles ** */
+body {
+  font: 62.5% Arial, Helvetica, sans-serif;
+  color: white;
+  background-color:black;
+  background-attachment: fixed;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+
+a:link,
+a:visited {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: blue;
+  background-color: #000;
+}
+
+#page {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#errorExplanation {
+	border: solid 1px red;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #311;
+}
+
+  #errorExplanation ul {
+	  list-style-type: square;
+	  margin-left: 16px;
+  }
+
+  .fieldWithErrors {
+  }
+
