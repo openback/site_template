@@ -39,7 +39,7 @@ function URLDecode(encodedString) {
 }
 
 /******************************************************************************/
-Event.observe(window, 'load', function() {
+$(document).ready(function() {
 
 });
 
